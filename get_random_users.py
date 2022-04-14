@@ -68,7 +68,7 @@ def gen_names(file: str, column: str, number: int = 10) -> list:
             while len(random_index) <= number:
                 if len(random_index) == number:
                     return [col[x] for x in random_index]
-                random_index.add(random.randrange(number))
+                random_index.add(random.randrange(len(col)))
             return [col[x] for x in random_index]
     except Exception as e:
         logger.error(e, exc_info=True)
