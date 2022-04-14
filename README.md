@@ -2,7 +2,7 @@
 
 
 ## Run:
-`python3 python main.py`
+`python3 main.py`
 
 ## args
 ```text
