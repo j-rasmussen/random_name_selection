@@ -1,5 +1,7 @@
 # Random Name Selection
 
+## Setup
+`pip3 install -r requirements.txt`
 
 ## Run:
 `python3 python main.py`
