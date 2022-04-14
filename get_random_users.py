@@ -61,7 +61,7 @@ def gen_names(file: str, column: str, number: int = 10) -> list:
         raise f"Not a valued file type\n\n{help_response}"
     try:
         col = list(df[column].drop_duplicates())
-        if len(col) >= number:
+        if len(col) <= number:
             return col
         else:
             random_index = set()
