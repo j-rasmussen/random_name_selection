@@ -4,7 +4,7 @@
 `pip3 install -r requirements.txt`
 
 ## Run:
-`python3 python main.py`
+`python3 main.py`
 
 ## args
 ```text
